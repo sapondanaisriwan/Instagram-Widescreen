@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           Instagram Widescreen
+@author         sapondanaisriwan <sapondanaisriwan@gmail.com> (https://github.com/sapondanaisriwan) [Adashima#4066]
+@description    You can modify to fit your screen.
+@namespace      https://userstyles.world/user/sapondanaisriwan
+@homepageURL    https://github.com/sapondanaisriwan/AdashimaaTube
+@supportURL     https://github.com/sapondanaisriwan/AdashimaaTube/issues
+@version        1.0.0
+@license        MIT
+==/UserStyle== */
+@-moz-document domain("www.instagram.com") {
+
+    ._aak9 {
+        position: static !important;
+    }
+
+    /* These rules fit with my screen. You can modify to fit your screen. */
+    ._aalz {
+        max-width: max(470px, 100% - 110px) !important;
+    }
+
+    #mount_0_0_Xs > div > div > div > div.x9f619.x1n2onr6.x1ja2u2z > div > div > div > div.x78zum5.xdt5ytf.x10cihs4.x1t2pt76.x1n2onr6.x1ja2u2z > div.x9f619.xnz67gz.x78zum5.x168nmei.x13lgxp2.x5pf9jr.xo71vjh.x1uhb9sk.x1plvlek.xryxfnj.x1c4vz4f.x2lah0s.x1q0g3np.xqjyukv.x1qjc9v5.x1oa3qoh.x1qughib > div.xh8yej3.x1gryazu.x10o80wk.x14k21rp.x1porb0y.x17snn68.x6osk4m > section > main > div:nth-child(1) > section > div._aak6._aak9 {
+        max-width: 300px !important;
+    }
+
+    ._aam2 {
+        max-width: max(470px, 100% - 300px) !important;
+    }
+}
